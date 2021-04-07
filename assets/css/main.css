@@ -1,0 +1,160 @@
+h1 {
+    font-family: "Georgia", bold, serif;
+    color: #2DF098; 
+    text-align: center;
+    font-size: 140px; 
+}
+
+h2 {
+    font-family: "Georgia", bold, serif;
+    text-align: center;
+    font-size: 140px; 
+}
+
+h3 {
+    font-family: "Georgia", bold, serif;
+    text-align: center;
+    font-size: 40px;
+     color: #2DF098;
+    letter-spacing: 1.5px; 
+    margin: auto; 
+    margin-top: 50px; 
+    max-width: 1000px; 
+    line-height: 1;
+    
+   
+}
+
+.amatusbaby{
+   font-family: "Georgia", bold, serif;
+    color: black; 
+    text-align: center;
+    font-size: 100px; 
+    text-shadow:
+     -1px -1px 0 #2DF098,  
+    1px -1px 0 #2DF098,
+    -1px 1px 0 #2DF098,
+     1px 1px 0 #2DF098  
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#2DF098;
+}
+.bookone {
+    font-family: "Georgia", bold, serif;
+    color: black; 
+    text-align: center;
+    font-size: 140px; 
+    margin-top: -175px;
+    text-shadow:
+     -1px -1px 0 #2DF098,  
+    1px -1px 0 #2DF098,
+    -1px 1px 0 #2DF098,
+     1px 1px 0 #2DF098
+}
+
+.booktwo {
+    font-family: "Georgia", bold, serif;
+    color: black; 
+    text-align: center;
+    font-size: 140px; 
+    margin-top: -174px;
+    text-shadow:
+     -1px -1px 0 #2DF098,  
+    1px -1px 0 #2DF098,
+    -1px 1px 0 #2DF098,
+     1px 1px 0 #2DF098
+}
+
+.bookthree {
+    font-family: "Georgia", bold, serif;
+    color: black; 
+    text-align: center;
+    font-size: 140px; 
+    margin-top: -174px;
+    text-shadow:
+     -1px -1px 0 #2DF098,  
+    1px -1px 0 #2DF098,
+    -1px 1px 0 #2DF098,
+     1px 1px 0 #2DF098
+}
+
+.bookfour {
+    font-family: "Georgia", bold, serif;
+    color: black; 
+    text-align: center;
+    font-size: 140px; 
+    margin-top: -174px;
+    text-shadow:
+     -1px -1px 0 #2DF098,  
+    1px -1px 0 #2DF098,
+    -1px 1px 0 #2DF098,
+     1px 1px 0 #2DF098
+}
+
+.about {
+    font-family: "Georgia", bold, serif;
+    color: black; 
+    text-align: center;
+    font-size: 140px; 
+    margin-top: -174px;
+    text-shadow:
+     -1px -1px 0 #2DF098,  
+    1px -1px 0 #2DF098,
+    -1px 1px 0 #2DF098,
+     1px 1px 0 #2DF098
+}
+body {
+  background-color: black; 
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50 50px;
+    width: inherit; 
+    margin: none; 
+}
+
+.column {
+   line-height: 0;
+   column-count: 4;
+   column-gap: 500px;
+    margin: none;
+    
+    
+}
+
+.column img {
+  width: 70% !important;
+  height: auto !important;
+    padding: 200px;
+    padding-bottom: 500px;
+    padding-right: 1000px; 
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
